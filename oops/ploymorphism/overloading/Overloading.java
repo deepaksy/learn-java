@@ -8,11 +8,15 @@ class Addition{
     void add(double a,double b){
         System.out.println(a+b);
     }
+    void add(int c){
+        System.out.println(c);
+    }
 }
 public class Overloading{
     public static void main(String[] args) {
         Addition add= new Addition();
         add.add(1,2);
         add.add(1.1,2.2);
+        add.add(2);
     }
 }
